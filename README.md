@@ -1,23 +1,23 @@
 
-wfchat/WildFireChat/WFCConfig.m
+wfchat/WildFireChat/WFCConfig.m  
 
 
-//NSString *IM_SERVER_HOST = @"wildfirechat.cn";
-NSString *IM_SERVER_HOST = @"im.naifen360.com";
+//NSString *IM_SERVER_HOST = @"wildfirechat.cn";  
+NSString *IM_SERVER_HOST = @"im.naifen360.com";  
  
- //NSString *APP_SERVER_ADDRESS = @"http://wildfirechat.cn:8888";
- //NSString *APP_SERVER_ADDRESS = @"https://app.wildfirechat.cn";
- NSString *APP_SERVER_ADDRESS = @"http://app.naifen360.com:8888";
+ //NSString *APP_SERVER_ADDRESS = @"http://wildfirechat.cn:8888";  
+ //NSString *APP_SERVER_ADDRESS = @"https://app.wildfirechat.cn";  
+ NSString *APP_SERVER_ADDRESS = @"http://app.naifen360.com:8888";  
 
 
-//用户协议和隐私政策，上线前请替换成您自己的内容
- NSString *USER_PRIVACY_URL = @"https://www.wildfirechat.cn/wildfirechat_user_privacy.html";
- NSString *USER_AGREEMENT_URL = @"https://www.wildfirechat.cn/wildfirechat_user_agreement.html";
- //NSString *USER_PRIVACY_URL = @"https://www.wildfirechat.cn/wildfirechat_user_privacy.html";
- //NSString *USER_AGREEMENT_URL = @"https://www.wildfirechat.cn/wildfirechat_user_agreement.html";
+//用户协议和隐私政策，上线前请替换成您自己的内容  
+ NSString *USER_PRIVACY_URL = @"https://www.wildfirechat.cn/wildfirechat_user_privacy.html";  
+ NSString *USER_AGREEMENT_URL = @"https://www.wildfirechat.cn/wildfirechat_user_agreement.html";  
+ //NSString *USER_PRIVACY_URL = @"https://www.wildfirechat.cn/wildfirechat_user_privacy.html";  
+ //NSString *USER_AGREEMENT_URL = @"https://www.wildfirechat.cn/wildfirechat_user_agreement.html";  
 
- NSString *USER_PRIVACY_URL = @"https://www.naifen360.com/user_privacy.html";
- NSString *USER_AGREEMENT_URL = @"https://www.naifen360.com/user_agreement.html";
+ NSString *USER_PRIVACY_URL = @"https://www.naifen360.com/user_privacy.html";  
+ NSString *USER_AGREEMENT_URL = @"https://www.naifen360.com/user_agreement.html";  
  
  
 
