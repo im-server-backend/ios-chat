@@ -42,7 +42,9 @@
     NSUserDefaults *sharedDefaults = [[NSUserDefaults alloc] initWithSuiteName:WFC_SHARE_APP_GROUP_ID];//此处id要与开发者中心创建时一致
         
     NSError *error = nil;
-    self.sharedConversations = [NSKeyedUnarchiver unarchivedArrayOfObjectsOfClass:[SharedConversation class] fromData:[sharedDefaults objectForKey:WFC_SHARE_BACKUPED_CONVERSATION_LIST] error:&error];
+    self.sharedConversations = [NSKeyedUnarchiver unarchivedObjectOfClass:[SharedConversation class] fromData:[sharedDefaults objectForKey:WFC_SHARE_BACKUPED_CONVERSATION_LIST] error:&error];
+   //self.sharedConversations = [NSKeyedUnarchiver unarchivedArrayOfObjectsOfClass:[SharedConversation class] fromData:[sharedDefaults objectForKey:WFC_SHARE_BACKUPED_CONVERSATION_LIST] error:&error];
+    
 }
 
 - (void)sendTo:(SharedConversation *)conversation {
@@ -116,7 +118,7 @@
     [MBProgressHUD hideHUDForView:self.view animated:YES];
     
     __weak typeof(self)ws = self;
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"已发送" message:@"您可以在野火IM中查看" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"已发送" message:@"您可以在YueApp IM中查看" preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *action = [UIAlertAction actionWithTitle:@"知道了" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
         [ws.extensionContext completeRequestReturningItems:@[] completionHandler:nil];

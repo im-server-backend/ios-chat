@@ -241,8 +241,9 @@
         
         _facePageControl.currentPage = 0;
         if (@available(iOS 14.0, *)) {
-            _facePageControl.backgroundStyle = UIPageControlBackgroundStyleProminent;
-            _facePageControl.allowsContinuousInteraction = YES;
+            //TODO 先注释掉
+           // _facePageControl.backgroundStyle = UIPageControlBackgroundStyleProminent;
+           // _facePageControl.allowsContinuousInteraction = YES;
         }
     }
     return _facePageControl;

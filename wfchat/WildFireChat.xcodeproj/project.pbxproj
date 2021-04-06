@@ -209,7 +209,7 @@
 		2BDCE7E22336278E0004212B /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
 		2BED56732395EC4D00B55C79 /* WFMomentClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WFMomentClient.framework; sourceTree = "<group>"; };
 		2BED56742395EC4D00B55C79 /* WFMomentUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WFMomentUIKit.framework; sourceTree = "<group>"; };
-		2E1D1FF71FAF0AE600F4405D /* 野火IM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "野火IM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1D1FF71FAF0AE600F4405D /* ToMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1D1FFA1FAF0AE600F4405D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E1D1FFB1FAF0AE600F4405D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2E1D20011FAF0AE600F4405D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -388,6 +388,8 @@
 		90E927F122DFF45F00F168BC /* WFCPrivacyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCPrivacyTableViewController.m; sourceTree = "<group>"; };
 		90FF267C222AB34B0001D8AF /* PCLoginConfirmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCLoginConfirmViewController.h; sourceTree = "<group>"; };
 		90FF267D222AB34B0001D8AF /* PCLoginConfirmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCLoginConfirmViewController.m; sourceTree = "<group>"; };
+		CEA7B209261CA1C30009AF6F /* ShareExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareExtensionDebug.entitlements; sourceTree = "<group>"; };
+		CEA7B20A261CA2180009AF6F /* 野火IMDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "野火IMDebug.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -531,7 +533,7 @@
 		2E1D1FF81FAF0AE600F4405D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E1D1FF71FAF0AE600F4405D /* 野火IM.app */,
+				2E1D1FF71FAF0AE600F4405D /* ToMe.app */,
 				2F56F6F3252C956700B829C4 /* ShareExtension.appex */,
 			);
 			name = Products;
@@ -540,6 +542,7 @@
 		2E1D1FF91FAF0AE600F4405D /* WildFireChat */ = {
 			isa = PBXGroup;
 			children = (
+				CEA7B20A261CA2180009AF6F /* 野火IMDebug.entitlements */,
 				2F63891F254E5A500084EEA6 /* Favorite */,
 				2F5527BD252CB2F900B0CDCB /* ShareExtension */,
 				2FA2E82025158E0D0038635A /* SDWebImage */,
@@ -656,6 +659,7 @@
 		2F56F6F4252C956700B829C4 /* ShareExtension */ = {
 			isa = PBXGroup;
 			children = (
+				CEA7B209261CA1C30009AF6F /* ShareExtensionDebug.entitlements */,
 				2B4C0269252F4A570043FA41 /* Vendor */,
 				2F5527BB252CADFA00B0CDCB /* ShareExtension.entitlements */,
 				2F56F6F5252C956700B829C4 /* ShareViewController.h */,
@@ -966,7 +970,7 @@
 			);
 			name = WildFireChat;
 			productName = WildFireChat;
-			productReference = 2E1D1FF71FAF0AE600F4405D /* 野火IM.app */;
+			productReference = 2E1D1FF71FAF0AE600F4405D /* ToMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2F56F6F2252C956700B829C4 /* ShareExtension */ = {
@@ -1281,7 +1285,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: FengYun Sun (U2266X7K8M)";
+				CODE_SIGN_IDENTITY = "Apple Development: Kunmao Shen (8T6M8N3C5K)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1339,7 +1343,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: FengYun Sun (ZTJABWRJ5T)";
+				CODE_SIGN_IDENTITY = "Apple Development: Kunmao Shen (8T6M8N3C5K)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1367,11 +1371,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = WildFireChat/WildFireChat.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "WildFireChat/野火IMDebug.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 58;
-				DEVELOPMENT_TEAM = ZTJABWRJ5T;
+				DEVELOPMENT_TEAM = Q3SZX5PYD8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1390,8 +1394,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.1.12;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.wildfirechat.messanger;
-				PRODUCT_NAME = "野火IM";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dg006.chat;
+				PRODUCT_NAME = ToMe;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1411,7 +1415,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 58;
-				DEVELOPMENT_TEAM = ZTJABWRJ5T;
+				DEVELOPMENT_TEAM = Q3SZX5PYD8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1430,8 +1434,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.1.12;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.wildfirechat.messanger;
-				PRODUCT_NAME = "野火IM";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dg006.chat;
+				PRODUCT_NAME = ToMe;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1446,11 +1450,11 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtensionDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 58;
-				DEVELOPMENT_TEAM = ZTJABWRJ5T;
+				DEVELOPMENT_TEAM = Q3SZX5PYD8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1462,8 +1466,9 @@
 				MARKETING_VERSION = 1.1.12;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.wildfirechat.messanger.ShareExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dg006.chat.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1477,7 +1482,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "Apple Development: Kunmao Shen (8T6M8N3C5K)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 58;
 				DEVELOPMENT_TEAM = ZTJABWRJ5T;
@@ -1491,7 +1496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.1.12;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.wildfirechat.messanger.ShareExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dg006.chat.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;

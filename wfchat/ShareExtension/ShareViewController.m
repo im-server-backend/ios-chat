@@ -43,7 +43,7 @@
     
     if (![[ShareAppService sharedAppService] isLogin]) {
         __weak typeof(self)ws = self;
-        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"没有登录" message:@"请先登录野火IM" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"没有登录" message:@"请先登录YueApp" preferredStyle:UIAlertControllerStyleAlert];
         
         
         UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
@@ -296,7 +296,7 @@
 }
 
 - (void)showImageLimit {
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"不支持发送多张图片" message:@"每次只能发送一张。如果您需要一次发送多张，请打开野火IM选择图片发送。" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"不支持发送多张图片" message:@"每次只能发送一张。如果您需要一次发送多张，请打开YueApp IM选择图片发送。" preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *action = [UIAlertAction actionWithTitle:@"知道了" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
 
@@ -318,7 +318,7 @@
 - (void)showSuccess {
     [MBProgressHUD hideHUDForView:self.view animated:YES];
     __weak typeof(self)ws = self;
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"已发送" message:@"您可以在野火IM中查看" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"已发送" message:@"您可以在YueApp IM中查看" preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *action = [UIAlertAction actionWithTitle:@"知道了" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
         [ws.extensionContext completeRequestReturningItems:@[] completionHandler:nil];
