@@ -20,6 +20,21 @@ NSString *IM_SERVER_HOST = @"im.naifen360.com";
  NSString *USER_AGREEMENT_URL = @"https://www.naifen360.com/user_agreement.html";  
  
  
+ 1 修改  WildFireChat/WildFireChat/ShareExtension/SharePredefine.h
+
+
+
+group.com.dg006.chat
+//#define WFC_SHARE_APP_GROUP_ID @"group.cn.wildfirechat.messanger"
+#define WFC_SHARE_APP_GROUP_ID @"group.com.dg006.chat"
+//com.dg006.chat.ShareExtension
+
+修改  WildFireChat/WildFireChat/SupportFiles/WildFireChat.entitlements
+App Groups 
+Item0  修改成 group.com.dg006.chat
+ 
+ 
+ 
 
 ## 野火IM解决方案
 
