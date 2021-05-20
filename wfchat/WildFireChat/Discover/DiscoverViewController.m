@@ -33,8 +33,8 @@
     self.dataSource = [NSMutableArray arrayWithArray:@[
                        @{@"title":LocalizedString(@"Chatroom"),@"image":@"discover_chatroom",@"des":@"chatroom"},
                        @{@"title":LocalizedString(@"Robot"),@"image":@"robot",@"des":@"robot"},
-                       @{@"title":LocalizedString(@"Channel"), @"image":@"chat_channel",@"des":@"channel"},
-                       @{@"title":LocalizedString(@"DevDocs"), @"image":@"dev_docs",@"des":@"Dev"}
+                       @{@"title":LocalizedString(@"Channel"), @"image":@"chat_channel",@"des":@"channel"} // ,
+                      // @{@"title":LocalizedString(@"DevDocs"), @"image":@"dev_docs",@"des":@"Dev"}
 //                     @{@"title":@"Things", @"image":@"discover_things",@"des":@"Things"}
     ]];
     

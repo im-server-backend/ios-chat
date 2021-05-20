@@ -78,7 +78,7 @@ alpha:1.0]
     
     self.userNameField = [[UITextField alloc] initWithFrame:CGRectMake(87, 0, userNameContainer.frame.size.width - 87, inputHeight - 1)];
     self.userNameField.font = [UIFont pingFangSCWithWeight:FontWeightStyleRegular size:16];
-    self.userNameField.placeholder = @"请输入手机号(仅支持中国大陆号码)";
+    self.userNameField.placeholder = @"请输入手机号";
     self.userNameField.returnKeyType = UIReturnKeyNext;
     self.userNameField.keyboardType = UIKeyboardTypePhonePad;
     self.userNameField.delegate = self;
@@ -151,7 +151,7 @@ alpha:1.0]
     
     self.privacyLabel = [[UILabel alloc] initWithFrame:CGRectMake(16, self.view.bounds.size.height - 40 - kTabbarSafeBottomMargin, self.view.bounds.size.width-32, 40)];
     self.privacyLabel.textAlignment = NSTextAlignmentCenter;
-    NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:@"登录即代表你已同意《YueApp IM用户协议》和《YueApp IM隐私政策》" attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:10],
+    NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:@"登录即代表你已同意《HRQApp IM用户协议》和《HRQApp IM隐私政策》" attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:10],
                                                                                                                      NSForegroundColorAttributeName : [UIColor darkGrayColor]}];
     [text setAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:10],
                           NSForegroundColorAttributeName : [UIColor blueColor]} range:NSMakeRange(9, 10)];

@@ -209,7 +209,7 @@
 		2BDCE7E22336278E0004212B /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
 		2BED56732395EC4D00B55C79 /* WFMomentClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WFMomentClient.framework; sourceTree = "<group>"; };
 		2BED56742395EC4D00B55C79 /* WFMomentUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WFMomentUIKit.framework; sourceTree = "<group>"; };
-		2E1D1FF71FAF0AE600F4405D /* ToMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1D1FF71FAF0AE600F4405D /* HRQApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRQApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1D1FFA1FAF0AE600F4405D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E1D1FFB1FAF0AE600F4405D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2E1D20011FAF0AE600F4405D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -533,7 +533,7 @@
 		2E1D1FF81FAF0AE600F4405D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E1D1FF71FAF0AE600F4405D /* ToMe.app */,
+				2E1D1FF71FAF0AE600F4405D /* HRQApp.app */,
 				2F56F6F3252C956700B829C4 /* ShareExtension.appex */,
 			);
 			name = Products;
@@ -970,7 +970,7 @@
 			);
 			name = WildFireChat;
 			productName = WildFireChat;
-			productReference = 2E1D1FF71FAF0AE600F4405D /* ToMe.app */;
+			productReference = 2E1D1FF71FAF0AE600F4405D /* HRQApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2F56F6F2252C956700B829C4 /* ShareExtension */ = {
@@ -997,7 +997,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = WildFireChat;
+				ORGANIZATIONNAME = HRQApp;
 				TargetAttributes = {
 					2E1D1FF61FAF0AE600F4405D = {
 						CreatedOnToolsVersion = 9.1;
@@ -1375,7 +1375,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 58;
+				CURRENT_PROJECT_VERSION = 60;
 				DEVELOPMENT_TEAM = Q3SZX5PYD8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1396,7 +1396,7 @@
 				MARKETING_VERSION = 1.1.12;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dg006.chat;
-				PRODUCT_NAME = ToMe;
+				PRODUCT_NAME = HRQApp;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1416,7 +1416,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 58;
+				CURRENT_PROJECT_VERSION = 60;
 				DEVELOPMENT_TEAM = Q3SZX5PYD8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1437,7 +1437,7 @@
 				MARKETING_VERSION = 1.1.12;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dg006.chat;
-				PRODUCT_NAME = ToMe;
+				PRODUCT_NAME = HRQApp;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1455,7 +1455,7 @@
 				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtensionDebug.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 58;
+				CURRENT_PROJECT_VERSION = 60;
 				DEVELOPMENT_TEAM = Q3SZX5PYD8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1486,7 +1486,7 @@
 				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 58;
+				CURRENT_PROJECT_VERSION = 60;
 				DEVELOPMENT_TEAM = Q3SZX5PYD8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

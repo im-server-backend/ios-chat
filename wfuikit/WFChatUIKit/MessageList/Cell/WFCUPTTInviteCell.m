@@ -101,7 +101,7 @@
     if (!_hint) {
         _hint = [[UILabel alloc] initWithFrame:CGRectMake(8, 68, 80, 16)];
         _hint.font = [UIFont systemFontOfSize:8];
-        _hint.text = @"YueApp对讲";
+        _hint.text = @"HRQApp对讲";
         _hint.textColor = [UIColor grayColor];
         [self.contentArea addSubview:_hint];
     }
